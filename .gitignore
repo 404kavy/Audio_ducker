@@ -1,0 +1,15 @@
+# Python build artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# PyInstaller temporary build artifacts
+build/
+*.spec
+
+# Optional: keep or ignore standalone binary (dist/)
+# If you want GitHub releases or git-lfs for the .exe, unignore.
+# Typically binaries over 25MB are excluded from git history.
+# build/ is excluded, but we can keep dist/ if desired or ignore large temp files.
+dist/
